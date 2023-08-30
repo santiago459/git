@@ -1,0 +1,94 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #0c192c;
+}
+
+#idCaja {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #15273f;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.inf-card {
+  color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.inf-card-p {
+  color: rgb(197, 197, 197);
+  font-size: 14px;
+  text-align: justify;
+  font-family: Nunito Sans;
+}
+
+.section-inf {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-inf-part {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  font-family: Nunito Sans;
+}
+
+.inf-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.inf-avatar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+
+.clock-title {
+  color: #8bacd9;
+}
+
+.p-title {
+  color: #00fff8;
+}
+
+.inf-avatarss{
+    font-family: sans-serif;
+    color: rgb(221, 221, 221);
+    font-weight: 100;
+}
+.inf-avatarss span{
+    color: rgb(201, 146, 250);
+}
